@@ -1,0 +1,33 @@
+@charset "UTF-8";
+#flexbox{
+      display:flex; 
+      flex-wrap: wrap;
+      background:#ddd;
+      width: 100%;
+      height:auto;
+      padding:10px;
+    }
+    .box-item1{
+      width: 50%;
+      background:#808080;
+      color:white;
+      text-align: center;
+      padding:15px 40px;
+      border:5px solid #ddd;
+    }   
+    
+    .box-item2{
+      width: 50%;
+      background:#1e90ff;
+      color:white;
+      text-align: center;
+      padding:15px 40px;
+      border:5px solid #ddd;
+    }
+    .box-item1:hover{
+    	background-color:#a9a9a9;
+    }
+    
+    .box-item2:hover{
+    	background-color:#4682b4;
+    }

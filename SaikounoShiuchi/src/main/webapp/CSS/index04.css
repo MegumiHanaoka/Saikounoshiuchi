@@ -1,0 +1,80 @@
+@charset "UTF-8";
+#flexbox{
+      display:flex; 
+      flex-wrap: wrap;
+      background:#ddd;
+      width: 100%;
+      height:auto;
+      padding:10px;
+    }
+    .box-item1{
+      width: 50%;
+      background:#ff6347;
+      text-align: center;
+      padding:15px 40px;
+      border:5px solid #ddd;
+    }   
+    
+    .box-item2{
+      width: 50%;
+      background:#00bfff;
+      text-align: center;
+      padding:15px 40px;
+      border:5px solid #ddd;
+    }  
+    
+    .box-item3{
+      width: 50%;
+      background:#ffd700;
+      text-align: center;
+      padding:15px 40px;
+      border:5px solid #ddd;
+    } 
+    
+    .box-item4{
+      width: 50%;
+      background:#00ff7f;
+      text-align: center;
+      padding:15px 40px;
+      border:5px solid #ddd;
+    } 
+    
+     .box-item5{
+      width: 50%;
+      background:#696969;
+      color:white;
+      text-align: center;
+      padding:15px 40px;
+      border:5px solid #ddd;
+    } 
+    
+     .box-item6{
+      width: 50%;
+      background:#7fff00;
+      text-align: center;
+      padding:15px 40px;
+      border:5px solid #ddd;
+    } 
+    .box-item1:hover{
+    	background-color:#f4a460;
+    }
+    
+    .box-item2:hover{
+    	background-color:#add8e6;
+    }
+    
+     .box-item3:hover{
+    	background-color:khaki;
+    }
+    
+    .box-item4:hover{
+    	background-color:#90ee90;
+    }
+    
+    .box-item5:hover{
+    	background-color:silver;
+    }
+    
+     .box-item6:hover{
+    	background-color:#adff2f
+    }

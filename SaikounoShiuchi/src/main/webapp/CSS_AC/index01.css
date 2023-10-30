@@ -1,0 +1,23 @@
+@charset "UTF-8";
+figure {
+  width: 500px;
+  position: relative;
+}
+
+figure img {
+  width: 100%;
+  vertical-align: top;
+}
+
+figure figcaption {
+  font-size: 20px;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}

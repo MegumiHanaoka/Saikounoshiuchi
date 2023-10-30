@@ -1,0 +1,51 @@
+@charset "UTF-8";
+#flexbox{
+      display:flex; 
+      flex-wrap: wrap;
+      background:#ddd;
+      width: 100%;
+      height:auto;
+      padding:10px;
+    }
+    .box-item1{
+      width: 33%;
+      background:#00ced1;
+      text-align: center;
+      padding:15px 40px;
+      border:5px solid #ddd;
+    }   
+    
+    .box-item2{
+      width: 33%;
+      background:#f08080;
+      text-align: center;
+      padding:15px 40px;
+      border:5px solid #ddd;
+    }  
+    
+    .box-item3{
+      width: 33%;
+      background:#7fff00;
+      text-align: center;
+      padding:15px 40px;
+      border:5px solid #ddd;
+    } 
+    .box-item1:hover{
+    	background-color:#b0c4ed;
+    }
+    
+    .box-item2:hover{
+    	background-color:lightsalmon;
+    }
+    
+     .box-item3:hover{
+    	background-color:#90ee90;
+    }
+    
+body {
+	 background-image: url("日本地図.png");
+	 background-size: 50%;
+	 background-position: center centerr;
+	 background-repeat: no-repeat;
+	 
+}
